@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/therap.javapractice.iml" filepath="$PROJECT_DIR$/.idea/modules/therap.javapractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/therap.javapractice_main.iml" filepath="$PROJECT_DIR$/.idea/modules/therap.javapractice_main.iml" group="therap.javapractice" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/therap.javapractice_test.iml" filepath="$PROJECT_DIR$/.idea/modules/therap.javapractice_test.iml" group="therap.javapractice" />
+    </modules>
+  </component>
+</project>
