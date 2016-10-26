@@ -52,13 +52,8 @@ class Calculate{
     public double get_double_val() throws IOException {
         return sc.nextDouble();
     }
-    public void display(double vol) throws RuntimeException{
-        if(vol<=0) {
-
-        }
-        else {
+    public void display(double vol){
             System.out.printf("%.3f\n", vol);
-        }
     }
 }
 
