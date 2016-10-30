@@ -32,7 +32,7 @@ class Calculate{
         }
         return l*b*h;
     }
-    // sphere
+    // hemisphere
     public double get_volume(double r){
         if(r <= 0) {
             throw new NumberFormatException("All the values must be positive");
