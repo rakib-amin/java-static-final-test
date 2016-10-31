@@ -13,6 +13,12 @@ import java.security.Permission;
  */
 class Calculate{
     Scanner sc = new Scanner(System.in);
+    // The reason we need to declare this variable static final is line 90,
+    // its obvious why final, because we cannot allow multiple mutation/update
+    // on output Object, in a recursive situation like this, it will receive a
+    // StackOverFlowException. But why static? Because we need only one output for
+    // each Class
+
     public static final Calculate output = new Calculate();
     public Calculate(){}
     public static Calculate do_calc(){
